@@ -1,45 +1,117 @@
+/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #121212;
+    color: #ffffff;
     text-align: center;
 }
 
+/* Encabezado */
 header {
-    background-color: #222;
-    color: white;
-    padding: 20px;
-    font-size: 24px;
+    background: linear-gradient(90deg, #000000, #1a1a1a);
+    color: #00e5ff;
+    padding: 30px 20px;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 5px 15px rgba(0, 229, 255, 0.3);
+    letter-spacing: 2px;
 }
 
+/* Contenido principal */
 .contenido {
-    max-width: 800px;
-    margin: 20px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    max-width: 900px;
+    margin: 50px auto;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 229, 255, 0.5);
+    transition: transform 0.3s ease-in-out;
 }
 
+.contenido:hover {
+    transform: scale(1.02);
+}
+
+/* Títulos */
+h2 {
+    color: #00e5ff;
+    text-transform: uppercase;
+    border-bottom: 4px solid #00e5ff;
+    display: inline-block;
+    padding-bottom: 6px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Imágenes */
 img {
     width: 100%;
-    max-width: 400px;
-    margin: 10px 0;
+    max-width: 500px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 229, 255, 0.5);
+    transition: transform 0.3s ease-in-out;
 }
 
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Tabla comparativa */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 15px rgba(0, 229, 255, 0.5);
 }
 
 th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
+    border: 2px solid #00e5ff;
+    padding: 14px;
+    text-align: center;
+    font-size: 18px;
 }
 
 th {
-    background-color: #444;
-    color: white;
+    background-color: #00e5ff;
+    color: #000;
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #252525;
+}
+
+/* Botones */
+.boton {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #121212;
+    background: #00e5ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background: #00c8e5;
+    transform: scale(1.1);
+}
+
+/* Pie de página */
+footer {
+    background: #111;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #bbbbbb;
+    letter-spacing: 1px;
 }
