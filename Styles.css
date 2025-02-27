@@ -101,7 +101,7 @@ boton {
     text-decoration: none;
 }
 
-.boton:hover {
+boton:hover {
     background: #00c8e5;
     transform: scale(1.1);
 }
