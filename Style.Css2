@@ -1,0 +1,124 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    text-align: center;
+    background-image: url('imagenes/fondo_profesional.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #0066ff, #6600ff); /* Degradado de azul a morado */
+    color: #ffffff;
+    padding: 30px 20px;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 5px 15px rgba(0, 102, 255, 0.3);
+    letter-spacing: 2px;
+}
+
+/* Secciones */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(30, 30, 30, 0.85); /* Fondo semi-transparente */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 102, 255, 0.5);
+}
+
+/* Títulos */
+h2 {
+    color: #00ccff;
+    text-transform: uppercase;
+    border-bottom: 4px solid #00ccff;
+    display: inline-block;
+    padding-bottom: 6px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Imágenes */
+img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 102, 255, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Enlaces y botones */
+a {
+    color: #00ccff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0099cc;
+}
+
+/* Botones */
+button {
+    background-color: #00ccff;
+    border: none;
+    color: #1a1a1a;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #0099cc;
+    transform: scale(1.1);
+}
+
+/* Tabla comparativa */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    box-shadow: 0px 0px 15px rgba(0, 102, 255, 0.5);
+}
+
+th, td {
+    border: 2px solid #00ccff;
+    padding: 14px;
+    text-align: center;
+    font-size: 18px;
+}
+
+th {
+    background-color: #00ccff;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #252525;
+}
+
+/* Pie de página */
+footer {
+    background: rgba(17, 17, 17, 0.9); /* Fondo semi-transparente */
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #bbbbbb;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
