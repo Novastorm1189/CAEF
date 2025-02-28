@@ -21,7 +21,7 @@ header {
 }
 
 /* Contenido principal */
-contenido {
+.main-content {
     max-width: 900px;
     margin: 50px auto;
     background: #1e1e1e;
@@ -31,7 +31,7 @@ contenido {
     transition: transform 0.3s ease-in-out;
 }
 
-contenido:hover {
+.main-content:hover {
     transform: scale(1.02);
 }
 
@@ -86,7 +86,7 @@ td {
 }
 
 /* Botones */
-boton {
+.button {
     display: inline-block;
     padding: 12px 25px;
     margin-top: 20px;
@@ -101,7 +101,7 @@ boton {
     text-decoration: none;
 }
 
-boton:hover {
+.button:hover {
     background: #00c8e5;
     transform: scale(1.1);
 }
