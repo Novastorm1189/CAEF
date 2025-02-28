@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fondo más oscuro para dar contraste */
+    color: #e0e0e0;
+    text-align: center;
+    background-image: url('imagenes/fondo_profesional.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Encabezado */
+header {
+    background: rgba(0, 0, 0, 0.85); /* Fondo semi-transparente */
+    color: #00e5ff;
+    padding: 40px 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 6px 18px rgba(0, 229, 255, 0.3);
+    letter-spacing: 3px;
+}
+
+/* Secciones */
+section {
+    margin: 30px 0;
+    padding: 25px;
+    background: rgba(28, 28, 28, 0.95); /* Fondo semi-transparente */
+    border-radius: 15px;
+    box-shadow: 0 6px 25px rgba(0, 229, 255, 0.6); /* Sombras más pronunciadas */
+}
+
+/* Títulos */
+h2 {
+    color: #00e5ff;
+    text-transform: uppercase;
+    border-bottom: 5px solid #00e5ff;
+    display: inline-block;
+    padding-bottom: 8px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Imágenes */
+img {
+    width: 100%;
+    max-width: 550px;
+    margin: 25px 0;
+    border-radius: 15px;
+    box-shadow: 0px 6px 20px rgba(0, 229, 255, 0.5);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 30px rgba(0, 229, 255, 0.7); /* Efecto de resplandor */
+}
+
+/* Tabla comparativa */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    box-shadow: 0px 6px 20px rgba(0, 229, 255, 0.4);
+}
+
+th, td {
+    border: 2px solid #00e5ff;
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+}
+
+th {
+    background-color: #00e5ff;
+    color: #000;
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #252525;
+}
+
+/* Botones */
+.boton {
+    display: inline-block;
+    padding: 14px 30px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #121212;
+    background: #00e5ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background: #00c8e5;
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 229, 255, 0.5); /* Resplandor al pasar el mouse */
+}
+
+/* Pie de página */
+footer {
+    background: rgba(17, 17, 17, 0.95); /* Fondo semi-transparente */
+    padding: 25px;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #bbbbbb;
+    letter-spacing: 1.5px;
+}
