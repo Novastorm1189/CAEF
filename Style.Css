@@ -3,24 +3,20 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1c1c1c;
+    background-color: #000000;
     color: #ffffff;
     text-align: center;
-    background-image: url('imagenes/fondo_profesional.jpg'); /* Ruta de la imagen de fondo */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 /* Encabezado */
 header {
     background: rgba(0, 0, 0, 0.85); /* Fondo semi-transparente */
-    color: #00e5ff;
+    color: #00ff7f; /* Verde */
     padding: 30px 20px;
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    box-shadow: 0 5px 15px rgba(0, 229, 255, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 255, 127, 0.3);
     letter-spacing: 2px;
 }
 
@@ -30,14 +26,14 @@ section {
     padding: 20px;
     background: rgba(28, 28, 28, 0.95); /* Fondo semi-transparente */
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 229, 255, 0.5);
+    box-shadow: 0 0 20px rgba(255, 20, 147, 0.5); /* Sombra rosa */
 }
 
 /* Títulos */
 h2 {
-    color: #00e5ff;
+    color: #00ff7f; /* Verde */
     text-transform: uppercase;
-    border-bottom: 4px solid #00e5ff;
+    border-bottom: 4px solid #ff1493; /* Rosa */
     display: inline-block;
     padding-bottom: 6px;
     font-size: 24px;
@@ -50,7 +46,7 @@ img {
     max-width: 600px;
     margin: 20px 0;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 229, 255, 0.5);
+    box-shadow: 0 5px 15px rgba(255, 20, 147, 0.5); /* Sombra rosa */
     transition: transform 0.3s ease-in-out;
 }
 
